@@ -1,20 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="100" started-at="2021-02-23T08:15:13Z" finished-at="2021-02-23T08:15:13Z">
+  <suite name="Suite" duration-ms="105843" started-at="2021-02-24T05:12:19Z" finished-at="2021-02-24T05:14:04Z">
     <groups>
       <group name="smoke">
-        <method signature="TestCase22.testcase2()[pri:0, instance:testcase1.TestCase22@29774679]" name="testcase2" class="testcase1.TestCase22"/>
+        <method signature="Create_contact.Create_contact1()[pri:0, instance:crm.autodesk.Create_contact@4883b407]" name="Create_contact1" class="crm.autodesk.Create_contact"/>
+        <method signature="Create_product.Create_product1()[pri:0, instance:crm.autodesk.Create_product@7d9d1a19]" name="Create_product1" class="crm.autodesk.Create_product"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Test" duration-ms="100" started-at="2021-02-23T08:15:13Z" finished-at="2021-02-23T08:15:13Z">
-      <class name="testcase1.TestCase22">
-        <test-method status="PASS" signature="testcase2()[pri:0, instance:testcase1.TestCase22@29774679]" name="testcase2" duration-ms="31" started-at="2021-02-23T13:45:13Z" finished-at="2021-02-23T13:45:13Z">
+    <test name="Test" duration-ms="105843" started-at="2021-02-24T05:12:19Z" finished-at="2021-02-24T05:14:04Z">
+      <class name="crm.autodesk.Create_product">
+        <test-method status="PASS" signature="OpenBrowsr()[pri:0, instance:crm.autodesk.Create_product@7d9d1a19]" name="OpenBrowsr" is-config="true" duration-ms="8077" started-at="2021-02-24T10:43:34Z" finished-at="2021-02-24T10:43:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase2 -->
-      </class> <!-- testcase1.TestCase22 -->
+        </test-method> <!-- OpenBrowsr -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:crm.autodesk.Create_product@7d9d1a19]" name="configBM" is-config="true" duration-ms="5051" started-at="2021-02-24T10:43:42Z" finished-at="2021-02-24T10:43:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="Create_product1()[pri:0, instance:crm.autodesk.Create_product@7d9d1a19]" name="Create_product1" duration-ms="14254" started-at="2021-02-24T10:43:47Z" finished-at="2021-02-24T10:44:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_product1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:crm.autodesk.Create_product@7d9d1a19]" name="configAM" is-config="true" duration-ms="1898" started-at="2021-02-24T10:44:02Z" finished-at="2021-02-24T10:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crm.autodesk.Create_product@7d9d1a19]" name="closeBrowser" is-config="true" duration-ms="915" started-at="2021-02-24T10:44:04Z" finished-at="2021-02-24T10:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- crm.autodesk.Create_product -->
+      <class name="crm.autodesk.Create_contact">
+        <test-method status="PASS" signature="OpenBrowsr()[pri:0, instance:crm.autodesk.Create_contact@4883b407]" name="OpenBrowsr" is-config="true" duration-ms="31559" started-at="2021-02-24T10:42:19Z" finished-at="2021-02-24T10:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowsr -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:crm.autodesk.Create_contact@4883b407]" name="configBM" is-config="true" duration-ms="12944" started-at="2021-02-24T10:42:50Z" finished-at="2021-02-24T10:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="Create_contact1()[pri:0, instance:crm.autodesk.Create_contact@4883b407]" name="Create_contact1" duration-ms="27237" started-at="2021-02-24T10:43:03Z" finished-at="2021-02-24T10:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_contact1 -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:crm.autodesk.Create_contact@4883b407]" name="configAM" is-config="true" duration-ms="2672" started-at="2021-02-24T10:43:30Z" finished-at="2021-02-24T10:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:crm.autodesk.Create_contact@4883b407]" name="closeBrowser" is-config="true" duration-ms="1144" started-at="2021-02-24T10:43:33Z" finished-at="2021-02-24T10:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- crm.autodesk.Create_contact -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
