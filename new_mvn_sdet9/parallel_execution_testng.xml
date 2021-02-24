@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="Test-runner-chrome">
+  
+    <classes>
+      <class name="crm.autodesk.Create_contact"/>
+ 
+    </classes>
+  </test> 
+  
+  
+   <test name="Test_runner-firefox">
+   
+    <classes>
+      <class name="crm.autodesk.Create_product"/>
+    </classes>
+  </test>
+</suite> 
